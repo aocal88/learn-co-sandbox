@@ -9,3 +9,17 @@ Saving varies by the type of work you are doing:
 -- *Git repositories that you clone into the Sandbox are NOT automatically saved.* In this case, you are responsible for committing and pushing your work to GitHub. 
 
 To learn more about the Sandbox, please visit http://help.learn.co/technical-support/learn-ide-in-browser/ide-in-browser-sandbox
+
+
+students = ["Mike", "Tim", "Monique"]
+
+nested_students = [
+  ["Mike", "Grade 10", "A average"],
+  ["Tim", "Grade 10", "C average"],
+  ["Monique", "Grade 11", "B average"]
+]
+
+
+puts students[0]
+puts nested_students[0][0]
+puts nested_students[2][1]
